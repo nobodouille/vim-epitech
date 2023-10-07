@@ -1,9 +1,15 @@
 ""
-""  EPITECH PROJECT, 2020
+""  EPITECH PROJECT, 2023
 ""  Vim Epitech
 ""  File description:
-""  A Vim configuration for the Epitech curriculum
+""  A plugin to config Vim following EPITECH's guidelines
 ""
+
+" Prevent loading the plugin twice
+if exists("g:loaded_vim_epitech")
+    finish
+endif
+let g:loaded_vim_epitech = 1
 
 syntax on
 
