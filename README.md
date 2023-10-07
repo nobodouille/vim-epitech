@@ -1,15 +1,42 @@
 # vim-epitech
-Vim configuration for Epitech students.
+
+Vim plugin for Epitech students.
+
 
 ## Installation
-- To install for the current user, run `./install.sh local`
-- To install for the system, run `./install.sh system`
-- To install for a specific user, run `./install.sh specific_user username`
+
+### Vim-plug
+
+```vim
+Plug 'drawbu/vim-epitech'
+```
+
+### Packer
+
+```vim
+use "drawbu/vim-epitech"
+```
+
+### lazy.nvim
+
+```vim
+{ "drawbu/vim-epitech" }
+```
 
 ## Thanks
 
-Thanks to : [nasso](https://github.com/nasso) and [Le-Bit](https://github.com/Le-Bit) for making this possible implicitly or not
+This project started as a clone of 
+[HelifeWasTAken/vim-epitech](https://github.com/HelifeWasTaken/vim-epitech), 
+which is more of a vim distro, a ready to go vim config than an actual plugin.
+So this was not the best for student with already a Vim config, and some of the
+settings are deprecated (i.e. `syntax on` is hardcoded in the config, but this
+settings is forbidden in some Epitech, like Bordeaux, during the C Pool).
+
+This is the current goal of this project: turning the old config into a plugin
+that students can install on both Neovim and Vim with a plugin manager like
+Vim-plug or LazyNvim.
+
 
 ## Author
 
-[Mattis DALLEAU](https://github.com/HelifeWasTaken)
+[Clément BOILLOT](https://github.com/drawbu)
