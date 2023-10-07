@@ -11,24 +11,6 @@ if exists("g:loaded_vim_epitech")
 endif
 let g:loaded_vim_epitech = 1
 
-syntax on
-
-" Numbers on the left
-set title
-
-" Show line and column on the bottom right
-set ruler
-
-" Identation settings
-set tabstop=4
-set shiftwidth=4
-set expandtab
-set ai
-set si
-
-" Set unix format for carriage returns
-set fileformat=unix
-
 " Considerate a *.h as *.c
 autocmd BufNewFile,BufRead *.h set filetype=c
 

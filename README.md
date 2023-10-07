@@ -23,6 +23,27 @@ use "drawbu/vim-epitech"
 { "drawbu/vim-epitech" }
 ```
 
+## Recommanded settings
+
+Depending on where your are/when you are from, your EPITECH may follow different
+guidelines following code style.
+
+```vim
+" Show line and column on the bottom right
+set ruler
+
+" Identation settings
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+set autoindent
+set smartindent
+
+" Set unix format for carriage returns
+set fileformat=unix
+```
+
 ## Thanks
 
 This project started as a clone of 
