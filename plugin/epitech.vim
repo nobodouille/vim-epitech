@@ -21,6 +21,7 @@ endif
 let s:filetypeMap = {
     \ 'c': {'b': '/*', 'm': '**', 'e': '*/'},
     \ 'make': {'b': '##', 'm': '##', 'e': '##'},
+    \ 'haskell': {'b': '{-', 'm': '--', 'e': '-}'},
 \}
 
 function! s:Epiyear()
