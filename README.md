@@ -1,6 +1,6 @@
 # vim-epitech
 
-Vim plugin for Epitech students.
+Vim plugin for Epitech students rewritten slighty in lua.
 
 
 ## Installation
