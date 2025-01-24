@@ -47,4 +47,4 @@ local function Epi_header()
 end
 
 vim.api.nvim_create_user_command("EpiHeader", Epi_header, {})
-vim.keymap.set("n", "<C-c><C-h>", Epi_header, { noremap = true, silent = true })
+vim.keymap.set("n", "<C-y>", Epi_header, { noremap = true, silent = true })
