@@ -38,6 +38,7 @@ local function Epi_header()
 			cmt.m .. " File description:",
 			cmt.m .. " _",
 			cmt.e,
+			"",
 		}
 		for i, line in ipairs(lines) do
 			lines[i] = line:gsub("µYEARµ", epiyear())
