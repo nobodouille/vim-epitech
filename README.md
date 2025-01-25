@@ -8,19 +8,19 @@ Vim plugin for Epitech students rewritten slighty in lua.
 ### Vim-plug
 
 ```vim
-Plug 'Sigmanificient/vim-epitech'
+Plug 'nobodouille/vim-epitech'
 ```
 
 ### Packer
 
 ```vim
-use "Sigmanificient/vim-epitech"
+use "nobodouille/vim-epitech"
 ```
 
 ### lazy.nvim
 
 ```vim
-{ "Sigmanificient/vim-epitech" }
+{ "nobodouille/vim-epitech" }
 ```
 
 ## Author
@@ -29,4 +29,5 @@ use "Sigmanificient/vim-epitech"
 - [Epitech](https://github.com/Epitech)
 - [Clément Boillot](https://github.com/drawbu)
 - [Yohann Boniface](https://github.com/Sigmanificient)
+- [Paul?](https://github.com/nobodouille)
 
