@@ -30,10 +30,11 @@ local function Epi_header()
 	local ft = vim.bo.filetype
 	local cmt = filetypeMap[ft]
 	if cmt then
+		local filename = vim.fn.expand("%:t")
 		local lines = {
 			cmt.b,
 			cmt.m .. " EPITECH PROJECT, µYEARµ",
-			cmt.m .. " __",
+			cmt.m .. " " .. filename,
 			cmt.m .. " File description:",
 			cmt.m .. " _",
 			cmt.e,
